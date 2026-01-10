@@ -1,15 +1,15 @@
-# 🏠 DE Real Estate Pro: AI Rental Predictor
+# DE Real Estate Pro: AI Rental Predictor
 
 A full-stack Data Science application that predicts rental prices across Germany using Machine Learning. This project processes a massive dataset to provide users with real-time market insights and deal evaluations.
 
 
 
-## 🚀 Live Demo
+## Live Demo
 **Check out the live app here:** [https://german-housing-project-ayqygnohbugidfpzuttxrx.streamlit.app/](https://german-housing-project-ayqygnohbugidfpzuttxrx.streamlit.app/)
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 This application utilizes a **Linear Regression model** trained on over **270,000 property listings** from across Germany. It allows users to estimate fair market rent based on specific apartment features and compare pricing trends between different federal states and cities.
 
 ### Key Features
@@ -20,7 +20,7 @@ This application utilizes a **Linear Regression model** trained on over **270,00
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python 3.x
 * **Machine Learning:** Scikit-Learn (Linear Regression)
 * **Data Handling:** Pandas, NumPy
@@ -30,7 +30,7 @@ This application utilizes a **Linear Regression model** trained on over **270,00
 
 ---
 
-## 🏗️ Architecture & Challenges
+## Architecture & Challenges
 One of the primary challenges of this project was managing the **271MB dataset**, which exceeds GitHub's standard upload limit. 
 1.  **Git LFS:** Implemented Large File Storage to track and version the data without bloat.
 2.  **Cloud Training:** Configured a custom pipeline so the model trains automatically upon the first deployment on the Streamlit Cloud server.
@@ -38,7 +38,7 @@ One of the primary challenges of this project was managing the **271MB dataset**
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 * `app.py`: The main Streamlit application code.
 * `immo_data.csv`: The full dataset (managed via LFS).
 * `requirements.txt`: Necessary libraries for deployment.
@@ -46,5 +46,5 @@ One of the primary challenges of this project was managing the **271MB dataset**
 
 ---
 
-## 👤 Contact
+##  Contact
 **Jahnnobit** - [GitHub Profile](https://github.com/jahnnobit)
